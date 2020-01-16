@@ -1,5 +1,10 @@
-
 $(document).ready(function() {
+  $("#areUSure").click(function() {
+      alert("Are you sure?");
+  });
+// });
+
+// $(document).ready(function() {
   $("form#questions").submit(function() {
     event.preventDefault();
 
@@ -9,21 +14,26 @@ $(document).ready(function() {
 
     if (time === "lateNight" && bathe === "bath" && dinner === "potRoast") {
       $("#Answer").show();
+      $(".celebrity").hide();
       $("#shirley").show();
     }
 
     else if (time === "midDay" && bathe === "bath" && dinner === "breakfast") {
       $("#Answer").show();
+      $(".celebrity").hide();
       $("#sandra").show();
     }
     else if (time === "evening" && bathe === "shower" && dinner === "pizza") {
       $("#Answer").show();
+      $(".celebrity").hide();
       $("#kate").show();
     }
+
+
     else {
       $("#Answer").show();
+      $(".celebrity").hide();
       $("#kristen").show();
     }
-
   });
 });

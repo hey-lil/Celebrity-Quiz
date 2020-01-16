@@ -4,16 +4,36 @@
 
 #shirley {
   display: none;
+  width:300px;
+  padding:20px;
+  margin: 10px;
+  border-style:inset;
+
 }
 
 #kate {
   display: none;
+  width:300px;
+  padding:20px;
+  margin: 10px;
+  border-style:inset;
 }
 
 #kristen {
   display: none;
+  width:300px;
+  padding:20px;
+  margin: 10px;
+  border-style:inset;
 }
 
 #sandra {
   display: none;
+  width:300px;
+  padding:30px;
+  margin-left: 100px;
+  margin-top:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-style:inset;
 }
