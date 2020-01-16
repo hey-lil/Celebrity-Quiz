@@ -1,29 +1,54 @@
 #Answer {
   display: none;
+  padding: 50px;
+}
+
+h1 {
+  font-style:bold;
+  text-transform:full-width;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.bigAnswer {
+  border: solid 2px;
+  margin: 50px
 }
 
 #shirley {
   display: none;
   width:300px;
-  padding:20px;
-  margin: 10px;
+  padding:30px;
+  margin-left: 80px;
+  margin-top:auto;
+  margin-right: auto;
+  margin-bottom: auto;
   border-style:inset;
-
 }
 
 #kate {
   display: none;
   width:300px;
-  padding:20px;
-  margin: 10px;
+  padding:30px;
+  margin-left: 80px;
+  margin-top:auto;
+  margin-right: auto;
+  margin-bottom: auto;
   border-style:inset;
 }
 
 #kristen {
   display: none;
   width:300px;
-  padding:20px;
-  margin: 10px;
+  padding:30px;
+  margin-left: 80px;
+  margin-top:auto;
+  margin-right: auto;
+  margin-bottom: auto;
   border-style:inset;
 }
 
@@ -31,9 +56,13 @@
   display: none;
   width:300px;
   padding:30px;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top:auto;
   margin-right: auto;
   margin-bottom: auto;
   border-style:inset;
+}
+
+body {
+  background-image:linear-gradient(to bottom right, #DDFFF8, #DDFFE9, #DFFFDD, #EDFFDD, #F9FFDD);
 }
