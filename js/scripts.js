@@ -2,9 +2,7 @@ $(document).ready(function() {
   $("#areUSure").click(function() {
       alert("Are you sure?");
   });
-// });
 
-// $(document).ready(function() {
   $("form#questions").submit(function() {
     event.preventDefault();
 
@@ -23,7 +21,7 @@ $(document).ready(function() {
       $(".celebrity").hide();
       $("#sandra").show();
     }
-    else if (time === "evening" && bathe === "shower" && dinner === "pizza") {
+    else if (time === "Evening" && bathe === "shower" && dinner === "pizza") {
       $("#Answer").show();
       $(".celebrity").hide();
       $("#kate").show();
