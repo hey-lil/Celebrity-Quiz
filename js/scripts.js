@@ -6,13 +6,21 @@ $(document).ready(function() {
     var dinner = $("input:radio[name=dinner]:checked").val();
 
     if (time === lateNight && bathe === bath && dinner === potRoast) {
-      $().show();
+      $("#Answer").show();
+      $("#shirley").show();
     }
-    if (time === lateNight && bathe === bath && dinner === potRoast) {
-      $().show();
+
+    else if (time === midDay && bathe === bath && dinner === breakfast {
+      $("#Answer").show();
+      $("#sandra").show();
     }
-    if (time === lateNight && bathe === bath && dinner === potRoast) {
-      $().show();
+    else if (time === evening && bathe === shower && dinner === pizza) {
+      $("#Answer").show();
+      $("#kate").show();
+    }
+    else {
+      $("#Answer").show();
+      $("#kristen").show();
     }
   }
 }
